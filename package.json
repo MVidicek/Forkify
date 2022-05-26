@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Web App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVidicek/Forkify.git"
+  },
+  "author": "Marko Vidicek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVidicek/Forkify/issues"
+  },
+  "homepage": "https://github.com/MVidicek/Forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  }
+}
