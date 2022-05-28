@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
+import { Fraction } from '../../../node_modules/fractional';
 import View from './View.js';
 
 class RecipeView extends View {
@@ -70,6 +70,7 @@ class RecipeView extends View {
           ${this._data.ingredients
             .map(this._generateMarkupIngredients)
             .join('')}
+        </div>
 
         <div class="recipe__directions">
           <h2 class="heading--2">How to cook it</h2>
@@ -87,7 +88,7 @@ class RecipeView extends View {
           >
             <span>Directions</span>
             <svg class="search__icon">
-              <use href="src/img/icons.svg#icon-arrow-right"></use>
+              <use href="${icons}#icon-arrow-right"></use>
             </svg>
           </a>
         </div>
