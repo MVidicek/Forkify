@@ -34,7 +34,6 @@
 - ❌ Improved recipe ingredient input
 - ❌ Display number of pages between pagination numbers
 - ❌ Nutrition data (spoonacular API)
-- ❌ Shopping list feature
 
 ------------
 
